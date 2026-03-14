@@ -22,7 +22,7 @@ class ClosestToNDivisibleByM:
 
     def v1(self):
         q = int(self.n / self.m)
-        n1 = self.m * q # 12
+        n1 = self.m * q
         
         if (self.n * self.m) > 0:
             n2 = self.m * (q + 1)
@@ -30,7 +30,7 @@ class ClosestToNDivisibleByM:
             n2 = self.m * (q - 1)
             
         if abs(self.n - n1) < abs(self.n - n2):
-            print(n1) # 13
+            print(n1)
         else:
             print(n2)
 
