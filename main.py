@@ -6,10 +6,12 @@ from problems.swap_two_numbers import SwapTwoNumbers
 from problems.closest_to_N_divisible_by_M import ClosestToNDivisibleByM
 from problems.dice_problem import DiceProblem
 from problems.sum_of_digits import SumOfDigits
+from problems.reverse_digits import ReverseDigits
 
 def main():
-   SumOfDigits(123).v1()
-   SumOfDigits(123).v2()
+   ReverseDigits(134).v1() 
+   ReverseDigits(134).v2() 
+   ReverseDigits(134).v3() 
     
 if __name__ == '__main__':
    main()
