@@ -5,10 +5,11 @@ from problems.sum_of_squares_of_N_numbers import SumOfSquaresOfNNumbers
 from problems.swap_two_numbers import SwapTwoNumbers
 from problems.closest_to_N_divisible_by_M import ClosestToNDivisibleByM
 from problems.dice_problem import DiceProblem
+from problems.sum_of_digits import SumOfDigits
 
 def main():
-   DiceProblem(3).v1()
-   DiceProblem(3).v2()
-   
+   SumOfDigits(123).v1()
+   SumOfDigits(123).v2()
+    
 if __name__ == '__main__':
    main()
