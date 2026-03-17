@@ -7,11 +7,10 @@ from problems.closest_to_N_divisible_by_M import ClosestToNDivisibleByM
 from problems.dice_problem import DiceProblem
 from problems.sum_of_digits import SumOfDigits
 from problems.reverse_digits import ReverseDigits
+from problems.is_prime import IsPrime
 
 def main():
-   ReverseDigits(134).v1() 
-   ReverseDigits(134).v2() 
-   ReverseDigits(134).v3() 
+   IsPrime(5).v1()
     
 if __name__ == '__main__':
    main()
