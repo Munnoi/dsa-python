@@ -8,9 +8,11 @@ from problems.dice_problem import DiceProblem
 from problems.sum_of_digits import SumOfDigits
 from problems.reverse_digits import ReverseDigits
 from problems.is_prime import IsPrime
+from problems.check_power import CheckPower
 
 def main():
-   IsPrime(5).v1()
+   CheckPower(1, 10).v1()   
+   CheckPower(1, 10).v2()   
     
 if __name__ == '__main__':
    main()
